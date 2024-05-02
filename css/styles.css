@@ -3,14 +3,14 @@
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+background: #272727;
 }
 
 .container{
 padding: 20px;
 width: 300px;
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 100px;
 background: white;
 border-radius: 5px;}
 
@@ -38,7 +38,7 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {padding: 5px;color:#000;position: relative;}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
@@ -58,4 +58,9 @@ li > crossOutButton {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+}
+
+.X {
+	position: absolute;
+	right: 0;
 }
